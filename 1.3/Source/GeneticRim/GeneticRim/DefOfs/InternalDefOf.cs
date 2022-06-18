@@ -61,6 +61,7 @@ namespace GeneticRim
         public static ThingDef GR_ElectroWomb;
         public static ThingDef GR_LargeElectroWomb;
         public static ThingDef GR_FleshGrowth_Building;
+        public static ThingDef GR_TissueGrinder;
        
         public static EffecterDef GR_FleshFliesEffecter;
        
@@ -98,6 +99,7 @@ namespace GeneticRim
         public static JobDef GR_AnimalHuntJob;
         public static JobDef GR_AnimalHarvestJob;
         public static JobDef GR_HumanoidHybridRecruit;
+        
 
         public static SoundDef GR_Pop;
         public static SoundDef GR_Beep;
@@ -118,6 +120,12 @@ namespace GeneticRim
         public static PreceptDef GR_WorktableSpeeds_Implants;
         [MayRequireIdeology]
         public static PreceptDef GR_WorktableSpeeds_Genomorpher;
+        [MayRequireIdeology]
+        public static MemeDef GR_MadScientists;
+        [MayRequireIdeology]
+        public static JobDef GR_DeliverCorpseToCell;
+        [MayRequireIdeology]
+        public static PreceptDef GR_ExtractorFuneral;
 
         public static AbilityDef GR_DeathRay;
 

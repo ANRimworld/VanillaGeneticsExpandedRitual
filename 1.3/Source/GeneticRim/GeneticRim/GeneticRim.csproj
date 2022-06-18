@@ -312,6 +312,7 @@
     <Compile Include="AI\JobDrivers\JobDriver_AnimalDeconstruct.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_AnimalHuntJob.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_ArchotechDNAExtraction.cs" />
+    <Compile Include="AI\JobDrivers\JobDriver_DeliverCorpseToCell.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_InsertArchotechGrowthCell.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_InsertGrowthCell.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_InsertIngredients.cs" />
@@ -321,6 +322,7 @@
     <Compile Include="AI\JobDrivers\JobDriver_Talk.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_UseExcavator.cs" />
     <Compile Include="AI\JobGivers\JobGiver_ClearSnow.cs" />
+    <Compile Include="AI\JobGivers\JobGiver_DeliverCorpseToCell.cs" />
     <Compile Include="AI\JobGivers\JobGiver_Harvest.cs" />
     <Compile Include="AI\JobGivers\JobGiver_Hunt.cs" />
     <Compile Include="AI\JobGivers\JobGiver_Execute.cs" />
@@ -401,9 +403,15 @@
     <Compile Include="Gas and Liquid\Persistant_Fuel.cs" />
     <Compile Include="Harmony\Building_Trap_CheckSpring.cs" />
     <Compile Include="Harmony\Caravan_NightResting.cs" />
+    <Compile Include="Harmony\Dialog_BeginRitual_CalculatePawnPortraitIcons.cs" />
+    <Compile Include="Harmony\IdeoFoundation_CanAdd.cs" />
+    <Compile Include="Harmony\IdeoUIUtility_CanAddPrecept.cs" />
+    <Compile Include="Harmony\LordJob_Ritual_ShouldBeCalledOff.cs" />
     <Compile Include="Harmony\MedicalRecipesUtility_SpawnThingsFromHediffs.cs" />
     <Compile Include="Harmony\ExecutionUtility_ExecutionInt.cs" />
     <Compile Include="Harmony\Recipe_InstallArtificialBodyPart_ApplyOnPawn.cs" />
+    <Compile Include="Harmony\RitualPosition_OnInteractionCell_GetCell.cs" />
+    <Compile Include="Harmony\RitualRoleAssignments_Setup.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Harmony\Verb_CastAbility_DrawRadius.cs" />
     <Compile Include="InteractionWorkers\InteractionWorker_AnimalSpeak.cs" />
@@ -411,6 +419,12 @@
     <Compile Include="PlaceWorkers\PlacementWorker_MustBeRoofed.cs" />
     <Compile Include="Projectiles\Projectile_Distortion.cs" />
     <Compile Include="Recipes\Recipe_InstallGeneticBodyPart.cs" />
+    <Compile Include="Ritual\RitaulStageAction_GRExtractGenome.cs" />
+    <Compile Include="Ritual\RitualBehaviorWorker_ExtractGenome.cs" />
+    <Compile Include="Ritual\RitualObligationTargetWorker_GR_GeneticExtractionTable.cs" />
+    <Compile Include="Ritual\RitualOutcomeEffectWorker_GRExtractGenome.cs" />
+    <Compile Include="Ritual\RitualRoleGRCorpse.cs" />
+    <Compile Include="Ritual\RitualRoleGRCorpse_RitualSpectatorFilterNotCorpse.cs" />
     <Compile Include="Settings\GeneticRim_SettingsController.cs" />
     <Compile Include="Settings\SettingsHelper.cs" />
     <Compile Include="ThingFilters\SpecialThingFilterWorker_Extracted.cs" />

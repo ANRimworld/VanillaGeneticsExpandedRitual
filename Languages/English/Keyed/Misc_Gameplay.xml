@@ -226,4 +226,13 @@
 	<RB_Mousy_Queen_Tag>Mousy Queen</RB_Mousy_Queen_Tag>
 	<RB_Purring_Queen_Tag>Purring Queen</RB_Purring_Queen_Tag>
 	<RB_Scaly_Queen_Tag>Scaly Queen</RB_Scaly_Queen_Tag>
+	<!-- Ritual -->
+	<GR_ExtractorNeedsPower>Extractor is not powered</GR_ExtractorNeedsPower>
+	<GR_GrinderRitualInfo>A Genome extractor table. Which must be powered</GR_GrinderRitualInfo>
+	<GR_RitaulExtractGenomeFail>{RITUAL} was a disaster! {CORPSE}'s genome was destroyed; colonists are having to say goodbye</GR_RitaulExtractGenomeFail>
+	<GR_RitaulExtractAmazing>{RITUAL} was spectacular! {CORPSE} miraculously produced 2 genomes, perhaps they did eat their twin in the womb.</GR_RitaulExtractAmazing>
+	<GR_RoleNotDeadExtractGenome>{0} Requires the pawn to be dead</GR_RoleNotDeadExtractGenome>
+	<GR_CantHaveVanillaFuneral>(Can't have two funerals remove {FUNERAL})</GR_CantHaveVanillaFuneral>
+	<GR_DisabledCorpseInaccessible>No accessible dead colonists, recover their genome at all costs!</GR_DisabledCorpseInaccessible>
+	
 </LanguageData>

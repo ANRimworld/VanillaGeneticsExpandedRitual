@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		<!--Precepts-->
+	<PreceptDef>
+		<defName>GR_ExtractorFuneral</defName>
+		<label>Extraction Funeral</label>
+		<description>A gathering to witness the extraction of our friends genomes so they can remain with us.</description>
+		<issue>Ritual</issue>		
+		<iconPath>ui/Memes/MadScientist</iconPath>
+		<preceptClass>Precept_Ritual</preceptClass>
+		<ritualPatternBase>GR_ExtractorFuneralPattern</ritualPatternBase>
+		<allowDuplicates>false</allowDuplicates>
+		<associatedMemes>
+			<li>GR_MadScientists</li>
+		</associatedMemes>
+		<requiredMemes>
+			<li>GR_MadScientists</li>
+		</requiredMemes>
+		<countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+		<selectionWeight>1.0</selectionWeight>
+		<displayOrderInImpact>100</displayOrderInImpact>
+		<impact>Medium</impact>
+		<ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
+		<receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
+		<skipOpportunityLettersBeforeDay>0</skipOpportunityLettersBeforeDay>		
+		<extraTextPawnDeathLetter>{PAWN_nameDef} should be extracted and turned into a glorious creation so {PAWN_possessive} friends and family need not say farewell.</extraTextPawnDeathLetter>
+	</PreceptDef>
+</Defs>

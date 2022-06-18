@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--Duty Defs-->
+   <DutyDef>
+    <defName>GR_DeliverCorpseToCellDuty</defName>
+    <hook>HighPriority</hook>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- Goto pawn -->
+        <li Class="GeneticRim.JobGiver_DeliverCorpseToCell">
+          <exactCell>true</exactCell>
+          <locomotionUrgency>Jog</locomotionUrgency>
+		  <addArrivalTagIfTargetIsExtracted>false</addArrivalTagIfTargetIsExtracted>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+</Defs>
