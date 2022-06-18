@@ -37,7 +37,7 @@ namespace GeneticRim
                 {
 
                     Pawn innerPawn = ((Corpse)list[i]).InnerPawn;
-                    if (innerPawn.CanBeBuried())
+                    if (innerPawn.CanBeBuried() && innerPawn.IsColonist)
                     {
                         ;
                         if (innerPawn.ideo.Ideo.HasMeme(InternalDefOf.GR_MadScientists))

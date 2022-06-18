@@ -16,7 +16,7 @@ namespace GeneticRim
     [HarmonyPatch(typeof(Dialog_BeginRitual))]
     [HarmonyPatch("CalculatePawnPortraitIcons")]
 
-
+    //This patch removes the sleeping icon for dead pawns
     public static class GeneticRim_Dialog_BeginRitual_CalculatePawnPortraitIcons_Patch
     {
       

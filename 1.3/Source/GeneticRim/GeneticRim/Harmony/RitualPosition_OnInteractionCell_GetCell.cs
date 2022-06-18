@@ -13,6 +13,7 @@ namespace GeneticRim
 {
     [HarmonyPatch(typeof(RitualPosition_OnInteractionCell))]
     [HarmonyPatch("GetCell")]
+    //This patch is just to make the rotation always == the bench
     public static class GeneticRim_RitualPosition_OnInteractionCell_GetCell
     {
         [HarmonyPrefix]
